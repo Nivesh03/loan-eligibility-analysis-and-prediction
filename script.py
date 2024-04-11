@@ -217,7 +217,6 @@ loan_test.Dependents = loan_test.Dependents.replace({'3+' : 4})
 train_dataset = loan_train[['Gender', 'Married', 'Dependents', 'Education',
        'Self_Employed', 'ApplicantIncome', 'CoapplicantIncome', 'LoanAmount',
        'Loan_Amount_Term', 'Credit_History', 'Property_Area', 'Loan_Status']]
-:
 
 
 test_dataset = loan_test[['Gender', 'Married', 'Dependents', 'Education',
